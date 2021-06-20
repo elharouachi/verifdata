@@ -1,0 +1,25 @@
+{
+  "name": "codingame-harouachi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist build",
+    "script:check-offer": "node dist/scripts/check.offer.script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/convict": "^6.0.2",
+    "@types/request-promise": "^4.1.47",
+    "convict": "^6.1.0",
+    "moment": "^2.29.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
